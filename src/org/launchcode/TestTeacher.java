@@ -14,5 +14,6 @@ public class TestTeacher {
         t2.age = 35;
 
         t2.display();
+        t1.display();
     }
 }
