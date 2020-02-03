@@ -6,6 +6,12 @@ public class Teacher {
     String gender;
     int age;
 
+    void setInfo(String n, String g, int a){
+        name = n;
+        gender = g;
+        age = a;
+    }
+
     void display(){
         System.out.println("Name: " + name);
         System.out.println("Gender: " + gender);
