@@ -24,4 +24,10 @@ public class Student {
         this.name = name;
         this.gender = gender;
     }
+
+    void displayInfo(){
+        System.out.println("Name: " + name);
+        System.out.println("Gender: " + gender);
+        System.out.println("Student id: " + id);
+    }
 }
