@@ -14,6 +14,7 @@ public class Stuff {
         System.out.println("Name: " + name);
         System.out.println("Id: " +id);
         System.out.println("Org Name: " + orgName);
+        System.out.println("........................");
     }
 
 }
